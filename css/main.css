@@ -1,6 +1,5 @@
 body {
     margin: auto;
-    /* margin: 60px auto; */
     width: 70%;
 }
 nav ul, footer ul {
@@ -49,4 +48,16 @@ ul.posts li {
     top: 0px;
     padding: 20px;
     left: 0px;
+}
+
+.project_link {
+    text-decoration: none;
+}
+
+#content {
+    background-color: #5c5c8a;
+}
+
+#foot {
+    position: fixed;
 }
