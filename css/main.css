@@ -45,4 +45,7 @@ ul.posts li {
 .blurb {
     background-color: #5c5c8a;
     margin: 0px auto;
+    top: 0px;
+    padding: 20px;
+    left: 0px;
 }
