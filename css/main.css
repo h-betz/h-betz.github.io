@@ -1,7 +1,6 @@
 body {
-    /* margin: 60px auto;
-    width: 70%; */
-    width: 100%;
+    margin: 60px auto;
+    width: 70%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -46,9 +45,4 @@ ul.posts li {
 .blurb {
     background-color: #5c5c8a;
     margin: 0;
-}
-
-#content {
-    margin: 60px auto;
-    width: 70%;
 }
