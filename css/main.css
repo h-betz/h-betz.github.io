@@ -2,16 +2,12 @@ body {
     margin: auto;
     width: 70%;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
+
 a {
     text-decoration: none;
     color: #999;
@@ -47,19 +43,38 @@ ul.posts li {
     margin: 0px auto;
     margin-bottom: 0px;
     top: 0px;
-    padding: 20px;
-    padding-bottom: 0px;
-    left: 0px;
+    /* padding: 20px; */
+    /* left: 0px; */
 }
 
 .project_link {
     text-decoration: none;
 }
 
-#content {
-    background-color: #5c5c8a;
+.header-table {
+    border-spacing: 20px;
+    border-collapse: separate;
 }
 
-#foot {
-    position: fixed;
+.container {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+.inner {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.header-cell {
+    vertical-align: bottom;
+    text-align: center;
+}
+
+#content {
+    background-color: #5c5c8a;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    bottom: 0px;
+    height: 100%;
 }
